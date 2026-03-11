@@ -1,0 +1,13 @@
+dbConfig:
+  database: unleash
+  host: devtest-pg0.postgres.database.azure.com
+  pass: "Treelab1234!!"
+  port: 5432
+  user: postgres
+  ssl:
+    rejectUnauthorized: false
+
+postgresql:
+  enabled: false
+
+replicaCount: 1

@@ -1,0 +1,13 @@
+dbConfig:
+  database: unleash
+  host: prod-pg0.postgres.database.azure.com
+  pass: "CHANGE_ME"
+  port: 5432
+  user: postgres
+  ssl:
+    rejectUnauthorized: true
+
+postgresql:
+  enabled: false
+
+replicaCount: 2
